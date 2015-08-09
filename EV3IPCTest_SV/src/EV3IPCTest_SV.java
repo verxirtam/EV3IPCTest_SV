@@ -48,9 +48,15 @@ class Connect extends Thread
 		try {
 					// ファイル名
 			PrintWriter out = new PrintWriter(s.getOutputStream(), true);
-			out.println("This is test message by Java.AAAA:0");
-			out.println("This is test message by Java.AAAAAAAAA:1");
-			out.println("This is test message by Java.:2");
+			//out.println("This is test message by Java.AAAA:0");
+			//out.println("This is test message by Java.AAAAAAAAA:1");
+			//out.println("This is test message by Java.:2");
+			
+			out.println("MESSAGE_1.0");
+			out.println("EV3LineTracer_1.0");
+			out.println("NullCommand");
+			out.println("OK");
+			out.println("");
 			
 
 			s.close();
